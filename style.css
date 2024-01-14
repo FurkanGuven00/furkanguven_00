@@ -1,0 +1,131 @@
+* {
+  font-family: "Montserrat", sans-serif;
+  box-sizing: border-box;
+}
+
+body{
+	background: linear-gradient(to right, #08000d, #0c0644);
+	color:white;
+}
+
+.div1{
+	width:90%;
+	margin-left:5%;
+}
+
+.header{
+	text-align:center;
+	margin: 3rem 0;
+}
+
+.header h3, h1{
+	margin:0;
+	margin-top:0.5px;
+}
+
+.header h3{
+	color:#aa00ff;
+}
+
+.arama{
+	display:flex;
+	align-items:center;
+	flex-direction:column;
+}
+.arama input{
+	border:1px solid #1e3caf;
+	background-color:#091442;
+	border-radius:20px;
+	width:320px;
+	height:35px;
+	font-size:17px;
+	outline:none;
+	padding:20px;
+	margin-bottom:1.5rem;
+}
+.katogariler{
+	display:flex;
+	flex-direction:row;
+	justify-content:center;
+	width:100%;
+	list-style:none;
+	padding:0;
+}
+
+.div1 li {
+	margin-right:1rem;
+	padding:0.5rem 1rem;
+	border-radius:15px;
+	background-color:#091442;
+	color:#1e3caf;
+	cursor:pointer;
+}
+ol li:hover{
+		background-color:#293a80;
+}
+.koleksiyonlar{
+	display:flex;
+	flex-wrap:wrap;
+	width:inherit;
+}
+
+.koleksiyon__itemleri{
+	flex:0 0 25%;
+	height:400px;
+	padding:10px;	
+	border-radius:20px;
+	min-height:400px;
+	margin-bottom:3rem;
+}
+
+.koleksiyon__container{	
+	display:flex;
+	flex-direction:column;
+	justify-content:space-between;
+	background-color:#100e11;
+	padding:10px;
+	border-radius:20px;
+	text-decoration:none;
+	color:white;
+}
+
+.koleksiyon__itemleri .koleksiyon__img{
+	border-radius:20px;
+	height:300px;
+}
+
+.koleksiyon__itemleri .koleksiyon__price{
+	display:flex;
+	justify-content:space-between;
+	margin-top:5px;
+}
+
+.koleksiyon__info{
+	margin:5px 0;
+}
+
+.koleksiyon__itemleri strong{
+	font-size:18px;
+}
+
+.koleksiyon__itemleri span{
+	font-size:14px;
+}
+
+.koleksiyon__img{
+	height:280px;
+}
+button{
+	border-radius:15px;
+	height:35px;
+	margin:5px;
+	background-color:#091442;
+	color:#1e3caf;
+}
+a{
+	text-decoration:none;
+	color:#1e3caf;;
+}
+.sa{
+	padding:100px;
+}
